@@ -47,7 +47,7 @@ else:
 
     # AIモデルとプロンプトの設定
     llm = ChatGroq(
-        model_name="llama-3.1-8b-instant",
+        model_name="openai/gpt-oss-20b",
         groq_api_key=groq_api_key,
         temperature=0,
     )
